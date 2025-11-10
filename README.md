@@ -1,1 +1,1 @@
-# Wipro_Training_Js_Problem
+# Wipro_Training_Js_Problems
