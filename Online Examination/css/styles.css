@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(120deg, #3b82f6, #0ea5e9);
+  font-family: "Poppins", sans-serif;
+  color: #f8fafc;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.exam-title {
+  font-size: 50px;
+  margin-top: 40px;
+  color: #e0f2fe;
+  text-shadow: 2px 2px #1e3a8a;
+}
+
+.exam-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 25px;
+  width: 420px;
+  margin: 40px auto;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.options label {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.options input {
+  margin-right: 8px;
+}
+
+.exam-actions button {
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.exam-actions button:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+.exam-info {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #dbeafe;
+}

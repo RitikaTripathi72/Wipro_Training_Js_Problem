@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <title>CGI Online Examination</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/Exam1.js" defer></script>
+</head>
+<body onload="initializeExam()">
+  <h1 class="exam-title">Welcome to the CGI Online Test</h1>
+
+  <section class="exam-container">
+    <form name="ExamForm" id="ExamForm" method="GET">
+      <p id="questionText">Question will appear here</p>
+
+      <div class="options">
+        <input type="radio" name="userChoice" id="optA" onclick="chooseAnswer(1)">
+        <label for="optA" id="labelA">Option A</label><br>
+
+        <input type="radio" name="userChoice" id="optB" onclick="chooseAnswer(2)">
+        <label for="optB" id="labelB">Option B</label><br>
+
+        <input type="radio" name="userChoice" id="optC" onclick="chooseAnswer(3)">
+        <label for="optC" id="labelC">Option C</label><br>
+
+        <input type="radio" name="userChoice" id="optD" onclick="chooseAnswer(4)">
+        <label for="optD" id="labelD">Option D</label><br>
+      </div>
+
+      <div class="exam-actions">
+        <button type="button" onclick="loadNextQuestion()">Next ➜</button>
+      </div>
+
+      <p class="exam-info" id="progressInfo"></p>
+    </form>
+  </section>
+</body>
+</html>
